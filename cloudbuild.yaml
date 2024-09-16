@@ -20,4 +20,6 @@ steps:
       - '8080'
       - '--allow-unauthenticated'
 timeout: 5000s
+options:
+  logging: CLOUD_LOGGING_ONLY
  
